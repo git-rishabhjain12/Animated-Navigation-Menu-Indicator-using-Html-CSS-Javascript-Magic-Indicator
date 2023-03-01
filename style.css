@@ -1,0 +1,23 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">);
+
+* {
+    margin: 11px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Iso', cursive;
+}
+
+body {
+    background: black;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: grey;
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 8px 3px green;
+}

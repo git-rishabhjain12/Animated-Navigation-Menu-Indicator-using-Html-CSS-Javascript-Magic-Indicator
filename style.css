@@ -14,10 +14,16 @@ body {
 
 .container {
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 40%;
+    left: 35%;
     background-color: grey;
     border: 2px solid blue;
     border-radius: 10px;
     box-shadow: inset 0px 0px 8px 3px green;
+    display: flex;
+    padding: 0 1rem;
+}
+
+.container a {
+    text-decoration: none;
 }
